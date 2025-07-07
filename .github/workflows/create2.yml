@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 355
     permissions:
       contents: write
-      workflows: write
+      actions: write
 
     steps:
       - name: Checkout repository
